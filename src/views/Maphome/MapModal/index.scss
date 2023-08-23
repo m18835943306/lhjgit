@@ -1,0 +1,13 @@
+.MapModalMap {
+    .ant-modal-content {
+        background-image: url("../../../assets/maphomeimages/mapModel.png");
+        background-repeat: no-repeat;
+        background-size: 100% 100%;
+        background-color: transparent !important;
+        opacity: 1;
+    }
+    .ant-modal-close{
+        top: 50px;
+        color: #EBF4FF;
+    }
+}

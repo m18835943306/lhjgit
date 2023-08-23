@@ -1,0 +1,70 @@
+.Coaxial {
+  height: 75vh;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  align-items: center;
+  // margin-top: -30px;
+  z-index: -99;
+  .Coaxial-time {
+    width: 100%;
+    // height: 10%;
+    // background-color: yellow;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    .Coaxial-time-container {
+      width: 54%;
+      height: 100%;
+      display: flex;
+      justify-content: flex-start;
+      align-items: center;
+      padding-bottom: 3rem;
+      margin-left: -1.5rem;
+      .Coaxial-time-one::before{
+        content: "";
+        width: 1.5rem;
+        height: 1rem;
+        border-radius: 0.2rem;
+        background-color: #1890ff;
+        margin-right: 0.3rem;
+      }
+      .Coaxial-time-one {
+        width: 40%;
+        height: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        .ant-picker,
+        .ant-select {
+          width: 245px;
+        }
+      }
+      .Coaxial-time-two::before{
+        content: "";
+        width: 1.5rem;
+        height: 1rem;
+        border-radius: 0.2rem;
+        background-color:#ef994e;
+        margin-right: 0.3rem;
+      }
+      .Coaxial-time-two {
+        width: 40%;
+        height: 10%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        .ant-picker,
+        .ant-select {
+          width: 245px;
+        }
+      }
+    }
+  }
+  .Coaxial-eachers {
+    width: 100%;
+    height: 95%;
+    background-color: white;
+  }
+}

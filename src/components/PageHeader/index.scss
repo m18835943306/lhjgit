@@ -1,0 +1,79 @@
+.PageHeader {
+  height: 39px;
+  width: 100%;
+  // background-color: red;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  .PageHeader-text {
+    // width: 79px;
+    height: 29px;
+    font-size: 20px;
+    font-family: AlibabaPuHuiTi_2_85_Bold;
+    color: #FFFFFF;
+    line-height: 28px;
+    padding-left: 40px;
+  }
+
+  .PageHeader-check {
+    height: 20px;
+    width: 120px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-right: 10px;
+    margin-top: 10px;
+    background-image: url("../../assets/maphomeimages/pageheader.png");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    .Activeliright {
+      width: 60px;
+      height: 22px;
+      // border: 1px solid #00D2FF;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      background: rgba(21, 102, 147, 0.8);
+      font-size: 14px;
+      font-family: AlibabaPuHuiTi_2_55_Regular;
+      color: #FFFFFF;
+      line-height: 20px;
+      background-image: url("../../assets/maphomeimages/checkright.png");
+      background-repeat: no-repeat;
+      background-size: 100% 100%;
+    }
+    .Activelileft {
+      width: 60px;
+      height: 22px;
+      // border: 1px solid #00D2FF;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      background: rgba(21, 102, 147, 0.8);
+      font-size: 14px;
+      font-family: AlibabaPuHuiTi_2_55_Regular;
+      color: #FFFFFF;
+      line-height: 20px;
+      background-image: url("../../assets/maphomeimages/checkleft.png");
+      background-repeat: no-repeat;
+      background-size: 100% 100%;
+    }
+
+    .OutActiveli {
+      width: 60px;
+      height: 20px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      font-size: 14px;
+      font-family: AlibabaPuHuiTi_2_55_Regular;
+      color: #FFFFFF;
+      line-height: 20px;
+
+      // background-image: url("../../assets/maphomeimages/checkout.png");
+      background-repeat: no-repeat;
+      background-size: 100% 100%;
+    }
+  }
+}

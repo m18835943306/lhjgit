@@ -1,0 +1,104 @@
+.EnterprisesAlarmsSituation {
+    width: 458px;
+    height: 317px;
+    display: flex;
+    font-size: 14px;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    overflow: hidden;
+
+    .alarmItem {
+        display: inline-flex;
+        width: 229px;
+        padding-left: 25px;
+
+        .nums {
+            display: flex;
+            flex-direction: column;
+            margin-left: 5px;
+            width: 81px;
+            height: 42px;
+            font-size: 36px;
+            ;
+            font-family: SFNS-Regular, SFNS;
+            font-weight: 400;
+            color: #20B4FA;
+            line-height: 51px;
+            text-shadow: 0px 0px 4px rgba(32, 180, 250, 0.58);
+        }
+
+        img {
+            width: 30%;
+            height: 30%;
+        }
+
+        .text {
+            width: 114px;
+            height: 16px;
+            font-size: 14px;
+            margin-top: 42px;
+            margin-left: -76px;
+            font-family: AlibabaPuHuiTi_2_55_Regular;
+            color: rgba(230, 247, 255, 0.7);
+            line-height: 16px;
+        }
+
+    }
+
+    .scrollList {
+        .list-warpper {
+            background: none !important;
+            margin: 8px;
+
+            .title {
+                color: #fff;
+            }
+
+            .body {
+                background: linear-gradient(90deg, rgba(5, 82, 118, 0.1) 0%, rgba(5, 82, 118, 0.3));
+                color: #fff;
+                padding-left: 21px;
+                ;
+
+            }
+
+            .list-warpper--content {
+                border-bottom: none;
+                height:36px;
+                width:443px;
+                
+
+
+                li {
+                    border-right: none;
+                }
+                li:nth-child(1){
+                    flex:4;
+                    justify-content: flex-start;
+                    overflow: hidden;
+                span{
+                    white-space:nowrap;
+                    overflow:hidden;
+                    text-overflow:ellipsis;
+                }
+                
+                }
+                li:nth-child(2){
+                    flex:1
+                }
+                li:nth-child(3){
+                    flex:2
+                }
+            }
+
+            .body:nth-child(2n) {
+                background: linear-gradient(90deg, rgba(33, 104, 125, 0.42) 0%, rgba(74, 129, 169, 0) 100%);
+            }
+
+        }
+        .list-warpper--body{
+            height:155px !important;
+        }
+
+    }
+}

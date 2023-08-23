@@ -1,0 +1,68 @@
+{
+  "name": "electricity-admin",
+  "private": true,
+  "description": "electricity project",
+  "version": "1.1.11",
+  "type": "module",
+  "scripts": {
+    "prepare": "husky install",
+    "dev": "vite",
+    "build": "vite build",
+    "build:test": "vite build --mode test",
+    "preview": "vite preview",
+    "clean": "rimraf ./dist"
+  },
+  "keywords": [
+    "vite",
+    "react",
+    "electricity"
+  ],
+  "author": "yangruichaoyrc@163.com",
+  "lint-staged": {
+    "*.{js, jsx}": [
+      "prettier --write"
+    ],
+    "*.{md,json}": [
+      "prettier --write --no-error-on-unmatched-pattern"
+    ]
+  },
+  "dependencies": {
+    "@ant-design/icons": "^5.0.1",
+    "@ysrd/components": "^0.0.2",
+    "@ysrd/ol5-react-ts": "^0.0.6",
+    "antd": "^5.7.3",
+    "axios": "^1.4.0",
+    "classnames": "^2.3.2",
+    "crypto-js": "^4.1.1",
+    "dayjs": "^1.11.7",
+    "echarts": "^5.4.2",
+    "js-export-excel": "^1.1.4",
+    "lodash": "^4.17.21",
+    "ol": "5.3.3",
+    "ol5-wind": "^1.1.2",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-redux": "^8.0.5",
+    "react-router-dom": "^6.11.1",
+    "react-transition-group": "^4.4.5",
+    "redux": "^4.0.4",
+    "screenfull": "^6.0.2"
+  },
+  "devDependencies": {
+    "@types/react": "^18.0.28",
+    "@types/react-dom": "^18.0.11",
+    "@vitejs/plugin-react": "^4.0.0",
+    "eslint": "^8.38.0",
+    "eslint-plugin-react": "^7.32.2",
+    "eslint-plugin-react-hooks": "^4.6.0",
+    "eslint-plugin-react-refresh": "^0.3.4",
+    "husky": "^8.0.3",
+    "lint-staged": "^13.2.2",
+    "picocolors": "^1.0.0",
+    "prettier": "^2.8.8",
+    "rimraf": "^5.0.1",
+    "sass": "^1.62.1",
+    "vite": "^4.3.2",
+    "vite-plugin-svgr": "^3.2.0"
+  }
+}

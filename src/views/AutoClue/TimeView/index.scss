@@ -1,0 +1,17 @@
+.timeView {
+  display: flex;
+  &_time {
+    margin-right: 40px;
+    &_item {
+      display: flex;
+      align-items: center;
+      margin-bottom: 20px;
+    }
+  }
+  &_type {
+    &__title {
+      margin-bottom: 10px;
+      margin-top: 10px;
+    }
+  }
+}

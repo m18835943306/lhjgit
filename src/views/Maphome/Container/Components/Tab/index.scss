@@ -1,0 +1,21 @@
+.MapTab {
+  background-image: url(../../../../../assets/maphomeimages/pageheader.png);
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  height: 24 * $fontsizeUnit;
+  line-height: 24 * $fontsizeUnit;
+  .MapTab-item {
+    display: inline-block;
+    height: 24 * $fontsizeUnit;
+    width: 50 * $fontsizeUnit;
+    color: #e2f0ff;
+    text-align: center;
+    font-size: 16 * $fontsizeUnit;
+    cursor: pointer;
+  }
+  .tab-active {
+    background-image: url('../../../../../assets/maphomeimages//checkright.png');
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+  }
+}

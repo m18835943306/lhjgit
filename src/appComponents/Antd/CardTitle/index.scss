@@ -1,0 +1,18 @@
+.card_custom_title {
+  position: relative;
+  padding-left: 12px;
+  font-size: 16px;
+  font-weight: 500;
+  display: flex;
+  align-items: center;
+  &::after {
+    content: '';
+    padding: 5px 0;
+    height: 55%;
+    width: 4px;
+    background-color: #4aa1ff;
+    position: absolute;
+    left: 0;
+    border-radius: 2px;
+  }
+}

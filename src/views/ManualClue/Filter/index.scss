@@ -1,0 +1,42 @@
+.ManualClue_filter {
+  padding: 10px 0;
+  .filter_query_box {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start !important;
+  }
+  .filter_query {
+    display: flex;
+    margin-bottom: 10px;
+    &__item {
+      display: flex;
+      align-items: center;
+      margin-right: 10px;
+      &--label {
+        white-space: nowrap;
+        width: 75px;
+      }
+      &--value {
+        min-width: 120px !important;
+        .ant-select {
+          width: 100%;
+        }
+        .ant-picker-range {
+          min-width: 230px !important;
+        }
+      }
+    }
+  }
+  .filter_button {
+    display: flex;
+    flex: 1;
+    justify-content: space-between;
+    align-items: center;
+    .condition_add {
+      cursor: pointer;
+      background: #eee;
+      border-radius: 5px;
+      padding: 5px 10px;
+    }
+  }
+}

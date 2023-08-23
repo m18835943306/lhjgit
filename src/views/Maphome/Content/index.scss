@@ -1,0 +1,77 @@
+.Content {
+    position: relative;
+    height: 100%;
+    width: 100%;
+
+    // display: flex;
+    .Content-header {
+        position: relative;
+        height: 5.5%;
+        width: 100%;
+        background-image: url("../../../assets/maphomeimages/headImg.png");
+        // background-size: 100% 100%;
+        // background-repeat: no-repeat;
+        background-color: rgb(2, 37, 46);
+        display: flex;
+        align-items: center;
+
+        .header-image {
+            width: 50px;
+            height: 50px;
+            background-image: url("../../../assets/maphomeimages/logo.png");
+            background-size: 100% 100%;
+            background-repeat: no-repeat;
+            margin-left: 20px;
+        }
+
+        .header-text {
+            width: 432px;
+            height: 33px;
+            font-size: 24px;
+            font-family: Charter-Black, Charter;
+            font-weight: 900;
+            color: #FFFFFF;
+            line-height: 30px;
+            margin-left: 20px;
+        }
+    }
+
+    .Content-center {
+        position: relative;
+        height: 92%;
+        width: 100%;
+        display: flex;
+
+        .Content-left {
+            position: absolute;
+            width: 20%;
+            height: 100%;
+            // background-color: red;
+            z-index: 99;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-evenly;
+            left: 1%;
+        }
+
+        .home-container {
+            // position: absolute;
+            height: 100%;
+            width: 100%;
+            display: flex;
+            z-index: 0;
+        }
+
+        .Content-right {
+            position: absolute;
+            width: 20%;
+            height: 100%;
+            z-index: 99;
+            left: 75%;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-evenly;
+        }
+    }
+
+}

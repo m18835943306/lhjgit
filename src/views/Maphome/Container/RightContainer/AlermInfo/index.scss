@@ -1,0 +1,87 @@
+.AlermInfo {
+  &-title {
+    height: 50 * $fontsizeUnit;
+    display: flex;
+    align-items: center;
+    &::before {
+      content: '';
+      width: 60 * $fontsizeUnit;
+      height: 100%;
+      display: inline-block;
+      background: url(../../../../../assets/maphomeimages/alarmItem.png)
+        no-repeat;
+      background-size: 100% 100%;
+    }
+    &--text {
+      text-align: center;
+      margin-left: 10px;
+      .nums {
+        font-size: 36px;
+        font-family: SFNS-Regular, SFNS;
+        font-weight: 400;
+        color: #20b4fa;
+        text-shadow: 0px 0px 4px rgba(32, 180, 250, 0.58);
+      }
+      .text {
+        font-size: 14px;
+        font-family: AlibabaPuHuiTi_2_55_Regular;
+        color: rgba(230, 247, 255, 0.7);
+      }
+    }
+  }
+  .scrollList {
+    margin-top: 10px;
+    .list-warpper {
+      background: none !important;
+
+      .title {
+        color: #fff;
+      }
+
+      .body {
+        background: linear-gradient(
+          90deg,
+          rgba(5, 82, 118, 0.1) 0%,
+          rgba(5, 82, 118, 0.3)
+        );
+        color: #fff;
+        padding-left: 21px;
+      }
+
+      .list-warpper--content {
+        border-bottom: none;
+        height: 36px;
+        width: 443px;
+
+        li {
+          border-right: none;
+          white-space: nowrap;
+        }
+        li:nth-child(1) {
+          flex: 4;
+          justify-content: flex-start;
+          overflow: hidden;
+          span {
+            white-space: nowrap;
+            overflow: hidden;
+            text-overflow: ellipsis;
+          }
+        }
+        li:nth-child(2) {
+          flex: 1;
+        }
+        li:nth-child(3) {
+          flex: 2;
+        }
+      }
+
+      .body:nth-child(2n) {
+        background: linear-gradient(
+          90deg,
+          rgba(33, 104, 125, 0.42) 0%,
+          rgba(74, 129, 169, 0) 100%
+        );
+      }
+    }
+  }
+}

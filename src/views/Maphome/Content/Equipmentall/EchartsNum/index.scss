@@ -1,0 +1,68 @@
+.Equipmentall-EchartsNum {
+  height: 199px;
+  width: 100%;
+
+  .EchartsNum-text {
+    height: 15%;
+    width: 436px;
+    display: flex;
+    margin-left: 12px;
+    justify-content: space-between;
+    .EchartsNum-textchildren {
+      width: 144px;
+      height: 21px;
+      font-size: 16px;
+      font-family: PingFangSC-Semibold, PingFang SC;
+      font-weight: 600;
+      color: #FFFFFF;
+      line-height: 21px;
+      margin-left: 20px;
+    }
+
+    .EchartsNum-check {
+      height: 100%;
+      width: 110px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding-bottom: 12px;
+      .Activeli {
+        width: 50px;
+        height: 20px;
+        // border: 1px solid #00D2FF;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        // background: rgba(21, 102, 147, 0.8);
+        font-size: 14px;
+        font-family: AlibabaPuHuiTi_2_55_Regular;
+        color: #FFFFFF;
+        line-height: 20px;
+        background-image: url("../../../../../assets/maphomeimages/checkshape.png");
+        background-repeat: no-repeat;
+        background-size: 100% 100%;
+      }
+
+      .OutActiveli {
+        width: 50px;
+        height: 20px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 14px;
+        font-family: AlibabaPuHuiTi_2_55_Regular;
+        color: #FFFFFF;
+        line-height: 20px;
+        // border: 1px solid #00D2FF;
+        background-image: url("../../../../../assets/maphomeimages/checkoutshape.png");
+        background-repeat: no-repeat;
+        background-size: 100% 100%;
+      }
+    }
+  }
+
+  .EchartsNum-echars {
+    height: 173px;
+    width: 100%;
+  }
+}

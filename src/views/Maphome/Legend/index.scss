@@ -1,0 +1,118 @@
+.legend {
+  position: absolute;
+  // right: 0;
+  // bottom: 0;
+  height: 100%;
+  right: 2%;
+  // bottom: 10%;
+  .container-tuli {
+    position: fixed;
+    right: 18%;
+    bottom: 20%;
+    width: 200px;
+    height: 250px;
+    bottom: 7%;
+    display: flex;
+    flex-direction: column;
+    .tuli-explain {
+      width: 100%;
+      height: 20%;
+      border-bottom: 1px dashed #6bb1fd;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      background-color: #fdfefe;
+      .explain-left {
+        width: 50%;
+        height: 50%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+
+      .explain-right {
+        width: 50%;
+        height: 50%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+    }
+
+    .tuli-num {
+      width: 100%;
+      height: 80%;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      background-color: #fdfefe;
+      .tuli-example {
+        width: 100%;
+        height: 25%;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        .example-img {
+          height: 50%;
+          width: 40%;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+        }
+        .example-text {
+          height: 50%;
+          width: 60%;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+        }
+      }
+    }
+  }
+
+  .container-number {
+    width: 200px;
+    height: 250px;
+    position: fixed;
+    right: 2%;
+    bottom: 7%;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    align-items: center;
+    background-color: #fdfefe;
+
+    .number-callpolice {
+      width: 100%;
+      height: 25%;
+      border: 1px solid #6bb1fd;
+      border-radius: 5px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+
+      .number-text {
+        height: 100%;
+        width: 70%;
+        text-align: center;
+        display: flex;
+        color: black;
+        justify-content: center;
+        align-items: center;
+      }
+
+      .number-num {
+        height: 100%;
+        width: 31%;
+        text-align: center;
+        background: url('&/assets/images/num.png') no-repeat;
+        background-size: cover;
+        display: flex;
+        color: #3341f6;
+        justify-content: center;
+        align-items: center;
+      }
+    }
+  }
+}

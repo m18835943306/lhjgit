@@ -1,0 +1,172 @@
+* {
+  box-sizing: border-box;
+  font-family: -apple-system, 'Noto Sans', 'Helvetica Neue', Helvetica,
+    'Nimbus Sans L', Arial, 'Liberation Sans', 'PingFang SC', 'Hiragino Sans GB',
+    'Noto Sans CJK SC', 'Source Han Sans SC', 'Source Han Sans CN',
+    'Microsoft YaHei', 'Wenquanyi Micro Hei', 'WenQuanYi Zen Hei', 'ST Heiti',
+    SimHei, 'WenQuanYi Zen Hei Sharp', sans-serif !important;
+}
+#root,
+.App {
+  width: 100%;
+  height: 100%;
+}
+
+body,
+html {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100%;
+}
+
+/*
+	滚动条样式
+*/
+::-webkit-scrollbar {
+  -webkit-appearance: none;
+  width: 6px;
+  height: 6px;
+  background-color: initial;
+}
+
+::-webkit-scrollbar-track {
+  // box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+  // background-color: red;
+  // border: 1px solid #ccc;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: #ddd;
+  border-radius: 10px;
+}
+
+div {
+  box-sizing: border-box;
+}
+ul,
+li {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+i {
+  font-style: normal;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+  padding: 0;
+}
+button {
+  outline: none;
+  border: 0;
+}
+
+.pointer {
+  cursor: pointer;
+}
+
+.flex-center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.inline-flex-center {
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.left {
+  float: left;
+}
+
+.right {
+  float: right;
+}
+
+.no-copy {
+  user-select: none;
+}
+
+.bold {
+  font-weight: bold;
+}
+
+.ellipsis {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.textCenter {
+  text-align: center;
+}
+p{
+  margin: 0;
+}
+:root {
+  --theme-color: rgba(0, 0, 0, 0.6);
+  --themeTable-color: #00182f;
+  --custodyPrimary-color: #011121;
+  --tabs-nav-color: rgba(255, 255, 255, 0.1);
+  --menuBtnChoose-color: #00182f;
+  --menuBtn-color: transparent;
+  --font-color: #fff;
+  --input-bg-color: rgba(255, 255, 255, 0.3);
+  --input-border-color: transparent;
+  --btn-color: #6394f7;
+  --table-header-color: transparent;
+  --table-border-color: rgba(255, 255, 255, 0.1);
+  --table-trOdd-color: #011121;
+  --table-trEven-color: #011121;
+  --downBtn-color: rgba(255, 255, 255, 0.3);
+  --bgWhiteOpacity-color: rgba(255, 255, 255, 0.3);
+  --bg-ant-modal-color: #020f1b;
+  --p-span-n-color: rgba(255, 255, 255, 0.2);
+  --p-span-selected-color: rgba(255, 255, 255, 0.5);
+  --img-arrow-color: rgba(255, 255, 255, 0.2);
+  --td-border-bottom-color: rgba(255, 255, 255, 0.2);
+  --td-hover-color: rgba(255, 255, 255, 0.6);
+  --my-event-bg-color: #12273a;
+  --my-problem-follow-bg-color: #273a4b;
+  --signStatistics-bg-color: rgba(255, 255, 255, 0.1);
+  --task-detail-follow-bg-color: #273a4b;
+  --analysis-bg-color: rgb(1 18 34);
+  --custom-table-even-bgColor: rgba(255, 255, 255, 1);
+  --card-selected-bg-color: rgba(4, 39, 70, 1);
+  --card-unselected-bg-color: rgba(14, 34, 52, 1);
+  //------全景展示开始------
+  --map-bg-color: rgba(10, 52, 91, 0.8);
+  --map-popup-color: rgba(10, 52, 91, 0.8);
+  //------全景展示结束------
+  //------首页开始------
+  --hp-shadow-color: 0 0 5px rgba(255, 255, 255, 0.3) inset;
+  --hp-bg-color: rgba(10, 52, 91, 0.8);
+  --hp-tab-color: rgba(1, 20, 36, 0.63);
+  --hp-tr-color: rgba(16, 66, 108, 0.4);
+  --hp-l2y-color: rgba(0, 183, 238, 1);
+  --hp-pbg-color: rgba(45, 60, 65, 1);
+  //------首页结束------
+  --title-panel-bg-color: rgba(37, 63, 86, 0.3);
+  --table-head-bg-color: #1a3044;
+  --routine-table-head-bg-color: #409ee7;
+  --right-table-head-bg-color: #e1e1e1;
+  --right-border-bg-color: #2788db;
+}
+
+:root {
+  --background-color: #eef3f9;
+  --card-color: #fff;
+}

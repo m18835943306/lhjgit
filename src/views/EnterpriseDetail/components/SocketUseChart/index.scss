@@ -1,0 +1,14 @@
+.SocketUseChart {
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+  height: 100%;
+  &_box {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    gap: 10px;
+    overflow-y: auto;
+    padding-bottom: 10px;
+  }
+}

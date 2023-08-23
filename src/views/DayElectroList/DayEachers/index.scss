@@ -1,0 +1,27 @@
+.DayEachers {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  .DayEachers-top {
+    position: relative;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    &_tips {
+      position: absolute;
+      right: 10px;
+      top: 10px;
+      color: red;
+    }
+  }
+
+  .DayEachers-bottom {
+    width: 100%;
+    height: 300px;
+    margin-top: 10px;
+  }
+}

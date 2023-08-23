@@ -1,0 +1,14 @@
+.PointModal-Information {
+    .ent_name {
+        width:200px;
+        overflow: hidden; //超出隐藏
+        white-space: nowrap; //不换行，同一行展示
+        text-overflow: ellipsis; //设置超出部分以省略号展示
+    }
+    .address{
+        width:200px;
+        overflow: hidden; //超出隐藏
+        white-space: nowrap; //不换行，同一行展示
+        text-overflow: ellipsis; //设置超出部分以省略号展示
+    }
+}

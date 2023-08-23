@@ -1,0 +1,21 @@
+.MapSmallTab {
+  height: 20 * $fontsizeUnit;
+  line-height: 20 * $fontsizeUnit;
+  .MapSmallTab-item {
+    display: inline-block;
+    height: 20 * $fontsizeUnit;
+    width: 50 * $fontsizeUnit;
+    color: #e2f0ff;
+    text-align: center;
+    font-size: 14 * $fontsizeUnit;
+    cursor: pointer;
+    background-image: url(../../../../../assets/maphomeimages/checkoutshape.png);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+  }
+  .tab-active {
+    background-image: url(../../../../../assets/maphomeimages/checkshape.png);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+  }
+}

@@ -1,0 +1,21 @@
+.ConText {
+
+  // height: 240px;
+  .num {
+    .num-ul {
+      display: flex;
+    }
+
+    .li {
+      text-align: left;
+      // margin: 5px 0;
+      padding: 10px;
+    }
+    // .num div:last-child{border:1px solid red}
+    .num-ul:nth-child(n):last-of-type {
+      border:none !important;
+  }
+  }
+
+
+}

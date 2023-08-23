@@ -1,0 +1,64 @@
+.Dinaecharts {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: relative;
+  z-index: 0;
+
+  .Dinaecharts-left {
+    width: 25px;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    background-color: blue;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    text-align: center;
+  }
+
+  .Dinaecharts-electrc {
+    position: absolute;
+    height: 15%;
+    width: 20%;
+    // background-color: red;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    top: 4%;
+    left: 13%;
+    z-index: 2;
+
+    .Activeli {
+      height: 100%;
+      width: 35%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      color: white;
+      background-color: #0076f6;
+    }
+
+    .OutActiveli {
+      height: 100%;
+      width: 35%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      color: black;
+      background-color: #e0e0e0;
+    }
+  }
+
+  .Dinaecharts-eachers {
+    width: 99%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #f5faff;
+  }
+}

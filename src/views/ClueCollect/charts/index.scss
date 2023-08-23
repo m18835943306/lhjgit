@@ -1,0 +1,58 @@
+.Charts {
+  margin-bottom: 10px;
+  overflow: hidden;
+  &_region {
+    height: 222px;
+    overflow: auto;
+    padding: 0;
+    &__item {
+      position: relative;
+      display: flex;
+      margin: 10px 0;
+      align-items: center;
+    }
+    &__label {
+      width: 80px;
+      max-width: 120px;
+      text-align: right;
+      padding-right: 15px;
+    }
+    &__diagram {
+      flex: 1;
+      display: flex;
+      justify-content: flex-start;
+      align-items: center;
+
+      &--item {
+        position: relative;
+        top: 2px;
+        border-radius: 3px;
+        display: inline-block;
+        height: 21px;
+        // margin-right: 6px;
+        // width: 10px;
+        background-color: #ccc;
+      }
+      .diagram_value {
+        position: absolute;
+        z-index: 9;
+        display: grid;
+        grid-template-columns: repeat(10, 15%);
+        grid-gap: 0px 8px;
+      }
+      .diagram_bg {
+        position: absolute;
+        display: grid;
+        grid-template-columns: repeat(10, 15%);
+        grid-gap: 0px 8px;
+      }
+    }
+    &__value {
+      padding-right: 20px;
+      width: 100px;
+      min-width: 100px;
+      display: flex;
+      justify-content: space-between;
+    }
+  }
+}

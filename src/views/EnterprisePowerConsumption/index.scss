@@ -1,0 +1,22 @@
+.EnterprisePowerConsumption {
+  // overflow-y: scroll;
+  .ant-table-wrapper .ant-table-pagination.ant-pagination {
+    margin: 10px 0;
+  }
+  .EnterprisePowerConsumption-biaoti {
+    width: 100%;
+    height: 5%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: black;
+    font-size: 20px;
+  }
+  // .ant-table-thead > tr > th {
+  //   background-color: #4aa1ff;
+  //   color: #ecf5ff;
+  // }
+  // .ant-table-thead > tr > th[colspan]:not([colspan='5']) {
+  //   border-bottom: 2px solid #ecf5ff;
+  // }
+}

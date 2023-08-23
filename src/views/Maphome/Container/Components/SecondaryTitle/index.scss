@@ -1,0 +1,12 @@
+.SecondaryTitle {
+  height: 26 * $fontsizeUnit;
+  background-image: url(../../../../../assets/maphomeimages/heng.png);
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20 * $fontsizeUnit;
+  &-text {
+    padding-left: 22 * $fontsizeUnit;
+    color: #fff;
+    font-size: 16px;
+  }
+}

@@ -1,0 +1,43 @@
+.EnterpriseElectricityMonitorList-wrap {
+  height: 98% !important;
+  width: 100%;
+  .ant-table-wrapper .ant-table-pagination.ant-pagination {
+    margin: 10px 0;
+  }
+   .ant-table-row-level-1{
+    background-color: #e5edf5;
+  }
+  .ant-table-cell-with-append {
+    text-align: left;
+  }
+
+}
+.EnterpriseElectricityMonitorList-content {
+  height: calc(100% - 60px);
+    width: 100%;
+  #EnterpriseElectricityMonitorList-map {
+    height: 100%;
+      width: 100%;
+  }
+}
+.ant-pagination {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 15px;
+}
+.EnterpriseElectricityMonitorList-check{
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  // .ant-checkbox{
+  //   // margin-top: 30px;
+  // }
+}
+.EnterpriseElectricityMonitorList-loading{
+  .ant-spin-nested-loading{
+    height: 100%;
+  }
+}
+

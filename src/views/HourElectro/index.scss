@@ -1,0 +1,16 @@
+.HourElectro {
+  .ant-table-wrapper .ant-table-pagination.ant-pagination {
+    margin: 10px 0;
+  }
+  .HourElectro_content {
+    width: 100%;
+    height: calc(100% - 100px);
+    overflow-y: auto;
+  }
+  .HourElectro-top {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+}

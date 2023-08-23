@@ -1,0 +1,27 @@
+.PlanMonitoing {
+  &_title {
+    display: flex;
+    justify-content: space-between;
+    padding: 5px 0 10px;
+    font-size: 16px;
+    font-weight: bold;
+    .alert_important {
+      color: red;
+    }
+  }
+  .square {
+    display: inline-block;
+    width: 15px;
+    height: 15px;
+    background-color: green;
+    margin-top: 3px;
+  }
+  .triangle {
+    display: inline-block;
+    border: 8px solid transparent;
+    border-bottom-color: red;
+  }
+  .ant-table-thead .colspan_name {
+    border-bottom: 2px solid #ecf5ff !important;
+  }
+}

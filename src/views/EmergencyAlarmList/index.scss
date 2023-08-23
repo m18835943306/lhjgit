@@ -1,0 +1,12 @@
+.EnterpriseElectricityMonitorList-wrap {
+  height: 98% !important;
+  .ant-table-wrapper .ant-table-pagination.ant-pagination {
+    margin: 10px 0;
+  }
+}
+.EnterpriseElectricityMonitorList-content {
+  height: calc(100% - 60px);
+  #EnterpriseElectricityMonitorList-map {
+    height: 100%;
+  }
+}

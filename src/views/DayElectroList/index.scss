@@ -1,0 +1,20 @@
+.DayElectroList {
+  height: 100%;
+  .ant-row {
+    height: 100%;
+    overflow: hidden;
+  }
+  .ant-col {
+    height: 100%;
+    overflow: hidden;
+  }
+  .DayElectroList_list {
+    width: 20%;
+    height: 100%;
+    border: 1px solid #e4e5e6;
+    box-shadow: rgb(189, 186, 186) 0px 0px 10px;
+  }
+  .DayElectroList_content {
+    height: 100%;
+  }
+}

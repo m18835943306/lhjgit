@@ -1,0 +1,23 @@
+.EnterpriseList-wrap {
+  height: 100%;
+  .ant-table-wrapper .ant-table-pagination.ant-pagination {
+    margin: 10px 0;
+  }
+  .ant-drawer-body {
+    padding: 0 !important;
+  }
+}
+.EnterpriseList-content {
+  height: calc(100% - 60px);
+  #EnterpriseList-map {
+    height: 100%;
+  }
+}
+
+.ant-drawer-header-title {
+  flex-direction: row-reverse;
+  .ant-drawer-close {
+    display: flex;
+    align-self: center;
+  }
+}

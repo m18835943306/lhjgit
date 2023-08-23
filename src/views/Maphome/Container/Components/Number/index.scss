@@ -1,0 +1,42 @@
+.MapNumber {
+  display: flex;
+  align-items: center;
+  height: 40 * $fontsizeUnit;
+  &-text {
+    font-size: 18px;
+    color: #fff;
+  }
+  &-num {
+    &--item {
+      height: 40 * $fontsizeUnit;
+      line-height: 40 * $fontsizeUnit;
+      width: 25 * $fontsizeUnit;
+      display: inline-block;
+
+      border-radius: 4px;
+      font-size: 24px;
+      color: #fff;
+      text-align: center;
+      margin-right: 1px;
+    }
+    .orange {
+      background: linear-gradient(
+        180deg,
+        rgba(235, 140, 49, 0) 0%,
+        rgba(184, 108, 34, 0.62) 100%
+      );
+      box-shadow: inset 0px 1px 5px 0px rgba(75, 156, 172, 0.81);
+      border: 1px solid #d4a157;
+    }
+    .skyblue {
+      background: linear-gradient(
+        180deg,
+        rgba(14, 78, 102, 0.25) 0%,
+        rgba(48, 208, 225, 0.68) 100%
+      );
+      box-shadow: inset 0px 1px 5px 0px rgba(75, 156, 172, 0.81);
+      border-radius: 4px;
+      border: 1px solid #79c5d1;
+    }
+  }
+}

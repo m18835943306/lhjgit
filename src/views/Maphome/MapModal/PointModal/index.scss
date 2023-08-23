@@ -1,0 +1,76 @@
+.PointModal {
+  height: 740px;
+  width: 100%;
+  // overflow: hidden;
+  // overflow-y: scroll;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+
+  .PointModal-Information {
+    width: 100%;
+    height: 240px;
+
+    .Information-content {
+      margin-top: 15px;
+      display: flex;
+      justify-content: space-evenly;
+      align-items: center;
+
+      .content {
+        width: 30%;
+        height: 90%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        align-items: flex-start;
+
+        div {
+          margin-top: 15px;
+
+          .content-name {
+            font-size: 14px;
+            font-family: AlibabaPuHuiTi_2_55_Regular;
+            color: #01F8FF;
+          }
+
+          span {
+            font-size: 14px;
+            font-family: AlibabaPuHuiTi_2_55_Regular;
+            color: #E2F0FF;
+          }
+        }
+      }
+    }
+  }
+
+  .PointModal-RealTime {
+    width: 100%;
+    height: 240px;
+    .RealTime-content{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+  }
+
+  .PointModal-List {
+    width: 100%;
+    height: 240px;
+    .List-content{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+  }
+
+  .headertitle-text {
+    font-size: 20px;
+    font-family: AlibabaPuHuiTi_2_55_Regular;
+    color: #F2FFFF;
+    // margin-top: 18px;
+    text-shadow: 0px 0px 14px rgba(0, 255, 221, 0.7);
+  }
+
+}

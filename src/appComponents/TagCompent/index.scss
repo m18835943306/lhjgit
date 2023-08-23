@@ -1,0 +1,8 @@
+.TagCompent{
+  .TagCompent-child{
+    border-bottom: 1px solid #f0f0f0;
+  }
+  .TagCompent-child:nth-child(n):last-of-type {
+    border: none !important;
+  }
+}

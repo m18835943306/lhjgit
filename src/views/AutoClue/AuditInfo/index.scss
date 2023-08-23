@@ -1,0 +1,30 @@
+.AuditInfo {
+  .select_img {
+    height: 150px;
+  }
+  &_upload {
+    margin-top: 10px;
+    .ant-upload-list {
+      display: none !important;
+    }
+
+    &__content {
+      display: flex;
+      align-items: flex-start;
+    }
+    &__lable {
+      margin-top: 5px;
+      white-space: nowrap;
+    }
+
+    &__tips {
+      color: red;
+      margin-top: 10px;
+    }
+  }
+  &_btns {
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 40px;
+  }
+}

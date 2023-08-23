@@ -1,0 +1,66 @@
+.DeviceQuery-list {
+  height: 100%;
+  width: 100%;
+
+  .ant-input-affix-wrapper {
+    opacity: 0.8;
+  }
+
+  .ant-spin-nested-loading {
+    height: 100%;
+
+    .ant-spin-container {
+      height: 100%;
+    }
+  }
+
+  .list-top {
+    width: 100%;
+    height: 15%;
+    background: url('../../../images/images/beijing.png') no-repeat;
+    background-size: cover;
+
+    .list-top-head {
+      width: 100%;
+      height: 30%;
+
+      .head-text {
+        padding-left: 4%;
+        padding-top: 5%;
+        color: #fff;
+        font-size: 18px;
+      }
+    }
+
+    .list-top-seacher {
+      width: 100%;
+      height: 70%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+
+      .ant-input-affix-wrapper {
+        width: 80%;
+        border-radius: 20px;
+      }
+    }
+  }
+
+  .list-bottom {
+    width: 100%;
+    height: 70%;
+    display: flex;
+    justify-content: center;
+    // border: 1px solid #7cb9fb;
+    border-radius: 5px;
+
+    // align-items:center;
+    // margin-top:5%;
+    .ant-tree {
+      line-height: 2.5715;
+      margin-top: 5%;
+      overflow: scroll;
+      width: 100%;
+    }
+  }
+}

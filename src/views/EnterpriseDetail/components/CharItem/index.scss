@@ -1,0 +1,20 @@
+.chart_item {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+  flex-direction: column;
+  &__label {
+    position: relative;
+    width: 100%;
+    font-size: 18px;
+    font-weight: 600;
+    color: #107ff6;
+    margin-right: 40px;
+    text-align: center;
+  }
+  &__box {
+    height: 100%;
+    width: 100%;
+    border: 1px solid #ccc;
+  }
+}

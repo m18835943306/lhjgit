@@ -1,0 +1,110 @@
+.MapPage {
+  height: 100%;
+  width: 100%;
+  overflow: hidden;
+  position: relative;
+}
+
+.Content-input {
+  position: absolute;
+  z-index: 99;
+  width: 300 * $fontsizeUnit;
+  height: 40 * $fontsizeUnit;
+  top: 25 * $fontsizeUnit;
+  left: 500px;
+
+  // color: white;
+  .ant-input-affix-wrapper {
+    // box-shadow: inset 0px 0px 1px 0px #64f8ff;
+    // border-radius: 8px;
+    // border: 1px solid #64f8ffff;
+    border: none;
+    background-color: #213f4e;
+    background-image: url('../../assets/maphomeimages/input.png');
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    color: white;
+    input::-webkit-input-placeholder {
+      color: #e2f0ff;
+      font-size: 14px;
+    }
+  }
+
+  .ant-input {
+    background-color: #213f4e;
+    color: white;
+  }
+
+  ::-webkit-input-placeholder {
+    /* WebKit browsers，webkit内核浏览器 */
+    color: #ccc;
+    font-size: 16px;
+  }
+}
+
+// 新地图样式
+// .Content {
+//   .Content-input {
+//     position: absolute;
+//     z-index: 99;
+//     width: 10%;
+//     height: 10%;
+//     top: 85* $fontsizeUnit;
+//     left: 500px;
+
+//     // color: white;
+//     .ant-input-affix-wrapper {
+//       box-shadow: inset 0px 0px 6px 0px #64f8ff;
+//       border-radius: 10px;
+//       border: 1px solid #64f8ffff;
+//       background-color: #213f4e;
+//       background-image: url('../../assets/maphomeimages/input.png');
+//       background-repeat: no-repeat;
+//       background-size: 100% 100%;
+//       color: white;
+//     }
+
+//     .ant-input {
+//       background-color: #213f4e;
+//       color: white;
+//     }
+
+//     ::-webkit-input-placeholder {
+//       /* WebKit browsers，webkit内核浏览器 */
+//       color: #ccc;
+//       font-size: 16px;
+//     }
+//   }
+
+//   .Content-text {
+//     position: absolute;
+//     z-index: 99;
+//     color: white;
+//     font-size: 20px;
+//     font-weight: 700;
+//     bottom: 5%;
+//     left: 500px;
+//     // overflow: hidden;
+//     white-space: wrap;
+//     text-overflow: ellipsis;
+//     // width: 900px;
+//   }
+
+//   .openlayers-map {
+//     width: 100%;
+//     height: 100%;
+//     z-index: 0; //
+
+//     .ol-selectable {
+//       width: 90%;
+//       height: 90%;
+//       position: absolute;
+//       z-index: 99;
+//     }
+
+//     .ol-overlay-container {
+//       width: 90%;
+//       height: 90%;
+//     }
+//   }
+// }

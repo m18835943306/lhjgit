@@ -1,0 +1,28 @@
+.expand_layout {
+  height: 100%;
+  .ant-row {
+    height: 100%;
+  }
+  &__left {
+    height: 100%;
+  }
+  &__right {
+    height: 100%;
+  }
+
+  .arrow {
+    position: absolute;
+    width: 16px;
+    height: 28px;
+    top: calc(50% - 14px);
+    cursor: pointer;
+  }
+  .arrow-left {
+    background: url('&/assets/images/leftResize1.png') no-repeat;
+    right: 4 * $fontsizeUnit;
+  }
+  .arrow-right {
+    background: url('&/assets/images/rightResize1.png') no-repeat;
+    left: 6 * $fontsizeUnit;
+  }
+}

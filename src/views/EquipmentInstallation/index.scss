@@ -1,0 +1,77 @@
+.EquipmentInstallation {
+  &_tabs {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 10px;
+    &__item {
+      position: relative;
+      padding: 0px 10px;
+      // height: 30px;
+      line-height: 30px;
+      margin: 5px 25px;
+      background-color: #efefef;
+      cursor: pointer;
+      &::after {
+        position: absolute;
+        right: -26px;
+        top: 0;
+        content: '';
+        height: 30px;
+        display: flex;
+        border-top: 15px solid white;
+        border-bottom: 15px solid white;
+        border-left: 15px solid #efefef;
+        border-right: 15px solid white;
+      }
+      &::before {
+        position: absolute;
+        left: -26px;
+        top: 0;
+        content: '';
+        height: 30px;
+        display: flex;
+        border-top: 15px solid white;
+        border-bottom: 15px solid white;
+        border-left: 15px solid white;
+        border-right: 15px solid #efefef;
+      }
+    }
+    .active {
+      background-color: #0076f6;
+      &::after {
+        position: absolute;
+        right: -26px;
+        top: 0;
+        content: '';
+        height: 30px;
+        display: flex;
+        border-top: 15px solid white;
+        border-bottom: 15px solid white;
+        border-left: 15px solid #0076f6;
+        border-right: 15px solid white;
+      }
+      &::before {
+        position: absolute;
+        left: -26px;
+        top: 0;
+        content: '';
+        height: 30px;
+        display: flex;
+        border-top: 15px solid white;
+        border-bottom: 15px solid white;
+        border-left: 15px solid white;
+        border-right: 15px solid #0076f6;
+      }
+    }
+  }
+  .ant-table-thead > tr > th[colspan='4'] {
+    border-bottom: 2px solid #ecf5ff !important;
+  }
+}
+.RadioGroup {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 10px;
+}

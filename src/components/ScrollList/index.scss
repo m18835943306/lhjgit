@@ -1,0 +1,45 @@
+.list-warpper {
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    background-color: #eee;
+    &--title {
+      display: flex;
+      flex: 1;
+    }
+    &--content {
+      display: flex;
+      flex: 1;
+      padding: 0;
+      margin: 0;
+      border-bottom: 1px solid #fff;
+      li {
+        display: flex;
+        flex: 1;  
+        padding: 10px;
+        border-right: 1px solid #fff;
+        &:last-child {
+          border-right: none;
+        }
+      }
+  
+      &:last-child {
+        border-bottom: none;
+      }
+      &:hover {
+        cursor: pointer;
+      }
+    }
+    &--body {
+      overflow: scroll;
+      &::-webkit-scrollbar {
+        width: 0;
+        height: 0;
+      }
+    }
+    .title {
+      background-color: unset !important;
+      background-image: url("../../assets/maphomeimages/title_rectangle.png");
+    }
+
+  }

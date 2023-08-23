@@ -1,0 +1,19 @@
+.EnterpriseElectricityMonitorClues-wrap {
+  height: 98% !important;
+  position: relative;
+}
+
+.EnterpriseElectricityMonitorClues-content--echart {
+  position: absolute;
+  left: 20%;
+  top: calc(50% - 200px);
+  z-index: 1;
+  width: 60%;
+  height: 400px;
+  background: #fff;
+  border: 1px solid #ccc;
+  padding: 10px;
+  .header {
+    text-align: right;
+  }
+}

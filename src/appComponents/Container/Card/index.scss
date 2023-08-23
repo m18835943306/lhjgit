@@ -1,0 +1,23 @@
+.ContainerCard {
+  background-color: #ebf0f7;
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  border-radius: 10px;
+  overflow: hidden;
+  &_title {
+    background-color: #f9fafd;
+    padding: 10px 10px;
+    font-weight: 600;
+    font-size: 14px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  &_body {
+    background-color: #fff;
+    padding: 10px 10px;
+    flex: 1;
+    overflow: hidden;
+  }
+}

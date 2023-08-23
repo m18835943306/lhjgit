@@ -1,0 +1,33 @@
+.ShareValue{
+    width: 98%;
+    height: 80px;
+    display: flex;
+    justify-content: space-evenly;
+    // border: 1px solid rgb(192, 183, 183);
+    align-items: center;
+    .ShareValue-value{
+        width: 20%;
+        height: 100px;
+        // background-color: red;
+        display: flex;
+        justify-content: space-evenly;
+        flex-direction: column;
+        align-items: center;
+    }
+    .ShareValue-select{
+        width: 60%;
+        height: 100px;
+        // background-color: red;
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+    }
+    .ShareValue-text{
+        width: 50%;
+        height: 100px;
+        // background-color: blue;
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+    }
+}

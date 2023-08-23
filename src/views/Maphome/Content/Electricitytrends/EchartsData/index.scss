@@ -1,0 +1,90 @@
+.EchartsData {
+    width: 100%;
+    height: 100%;
+
+    .EchartsData-type {
+        width: 100%;
+        height: 20px;
+        margin: 14px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+
+        .EchartsData-typeleft {
+            width: 60%;
+            height: 100%;
+            display: flex;
+            align-items: center;
+            .Activeli {
+                width: 50px;
+                height: 20px;
+                // border: 1px solid #00D2FF;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                // background: rgba(21, 102, 147, 0.8);
+                font-size: 14px;
+                font-family: AlibabaPuHuiTi_2_55_Regular;
+                color: #FFFFFF;
+                line-height: 20px;
+                margin-left: 10px;
+                background-image: url("../../../../../assets/maphomeimages/checkshape.png");
+                background-repeat: no-repeat;
+                background-size: 100% 100%;
+            }
+
+            .OutActiveli {
+                width: 50px;
+                height: 20px;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                font-size: 14px;
+                font-family: AlibabaPuHuiTi_2_55_Regular;
+                color: #FFFFFF;
+                line-height: 20px;
+                // border: 1px solid #00D2FF;
+                margin-left: 10px;
+                background-image: url("../../../../../assets/maphomeimages/checkoutshape.png");
+                background-repeat: no-repeat;
+                background-size: 100% 100%;
+            }
+        }
+        .EchartsData-typeright{
+            height: 100%;
+            width: 40%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            .ant-select-selector{
+                background-color:#173847;
+      
+            }
+            .ant-select-selection-placeholder{
+                color: white;
+            }
+            .ant-select-selection-item{
+                color: white;
+            }
+        }
+    }
+
+    .EchartsData-eachers {
+        width: 100%;
+        height: 230px;
+
+        .EchartsData-topeachers {
+            width: 100%;
+            height: 115px;
+        }
+
+        .EchartsData-bottomeachers {
+            width: 100%;
+            height: 115px;
+        }
+    }
+    .ant-select-selector{
+        min-width: 120px;
+        max-width: 130px;
+    }
+}

@@ -1,0 +1,103 @@
+.Filter-wrap {
+  width: 100%;
+  border: 1px solid #dee0e3;
+  // padding: 10px 10px 0 10px;
+  margin-bottom: 10px;
+  & > .ant-row {
+    flex-wrap: nowrap;
+    align-items: flex-start;
+    display: flex;
+    justify-content: flex-start;
+  }
+  .Filter-list {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    .Filter-item {
+      width: 250px;
+      display: flex;
+      justify-content: flex-start;
+      align-items: center;
+      margin-right: 20px;
+      margin-bottom: 10px;
+      & > span {
+        flex-shrink: 0;
+        margin: 0 10px 0 0;
+      }
+      input {
+        height: auto;
+        font-size: 12px;
+        padding: 0px 11px;
+        line-height: 30px;
+      }
+      .ant-select-single
+        .ant-select-selector
+        .ant-select-selection-placeholder {
+        line-height: 30px;
+      }
+       
+    }
+    & > .Filter-item:last-child {
+      margin-right: 0px;
+    }
+    .Filter-dete-item {
+      display: flex;
+      justify-content: flex-start;
+      align-items: center;
+      margin-right: 20px;
+      margin-bottom: 10px;
+      & > span {
+        flex-shrink: 0;
+        margin: 0 10px 0 0;
+      }
+      & > .ant-picker {
+        padding-top: 0;
+        padding-bottom: 0;
+      }
+      input {
+        width: 100%;
+        height: auto;
+        font-size: 12px;
+        padding: 0px 11px;
+        line-height: 30px;
+      }
+    }
+    .Filter-RangePicker-item {
+      display: flex;
+      justify-content: flex-start;
+      align-items: center;
+      margin-right: 20px;
+      margin-bottom: 10px;
+      & > span {
+        flex-shrink: 0;
+        margin: 0 10px 0 0;
+      }
+      & > .ant-picker-range {
+        padding-top: 0;
+        padding-bottom: 0;
+      }
+      input {
+        width: 100%;
+        height: auto;
+        font-size: 12px;
+        padding: 0px 11px;
+        line-height: 30px;
+      }
+      .ant-picker-range {
+        width: 260px;
+      }
+    }
+  }
+  .Filter-buttons {
+    text-align: right;
+    display: flex;
+    align-items: center;
+    & > * {
+      margin-left: 10px;
+      margin-bottom: 10px;
+    }
+  }
+  .ant-select{
+    width: 100%;
+  }
+}

@@ -1,0 +1,26 @@
+.EnterpriseData{
+    height: 100%;
+  .ant-row {
+    height: 100%;
+    overflow: hidden;
+  }
+  .ant-col {
+    height: 100%;
+    overflow: hidden;
+  }
+  // .EnterpriseData_list {
+  //   // width: 20%;
+  //   height: 100%;
+  //   border: 1px solid #e4e5e6;
+  //   box-shadow: rgb(189, 186, 186) 0px 0px 10px;
+  // }
+  .ant-spin-nested-loading{
+    height: 100%;
+  }
+    .ant-spin-container{
+    height: 100%;
+  }
+  .ant-table-thead>tr>th{
+    padding: 0px !important;
+}
+}
